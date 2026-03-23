@@ -1,0 +1,22 @@
+{
+  "name": "playwright_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run bddgen && npm run playwright-test",
+    "bddgen": "npx bddgen",
+    "playwright-test": "npx playwright test --reporter=html,list"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.4.0",
+    "dotenv": "^17.3.1",
+    "playwright-bdd": "^8.4.2"
+  }
+}

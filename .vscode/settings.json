@@ -1,0 +1,15 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Default Dark+",
+  "cucumber.features": ["tests/Features/*.feature"],
+  "cucumber.glue": ["tests/steps/*.js"],
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[cucumber]": {
+    "editor.defaultFormatter": "CucumberOpen.cucumber-official"
+  }
+}
