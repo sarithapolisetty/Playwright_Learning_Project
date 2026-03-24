@@ -4,7 +4,7 @@ import { defineBddConfig } from 'playwright-bdd';
 
 const testDir = defineBddConfig({
   features: 'tests/Features/***.feature',
-  steps: ['tests/steps/***.js', 'tests/Fixtures/fixture.js', 'tests/hooks/hooks.js' ]
+  steps: ['tests/steps/***.js', 'tests/Fixtures/fixture.js', 'tests/hooks/hooks.js']
 });
 
 /**
@@ -29,7 +29,7 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+  reporter: [['html'], ['github']],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('')`. */
