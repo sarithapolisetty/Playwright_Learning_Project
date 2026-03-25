@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4566","Example #1","chromium","2026-03-25","passed","2026-03-25","Login Functionality > Verify user is able to login with valid credentials","tests/Features/login.feature.spec.js","",""
+"","3985","Example #1","chromium","2026-03-25","passed","2026-03-25","Login Functionality > Verify user is not able to login with invalid credentials","tests/Features/login.feature.spec.js","",""
