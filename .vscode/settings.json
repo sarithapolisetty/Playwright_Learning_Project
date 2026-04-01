@@ -1,6 +1,6 @@
 {
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Dark+",
   "cucumber.features": ["tests/Features/*.feature"],
   "cucumber.glue": ["tests/steps/*.js"],
   "[javascript]": {
