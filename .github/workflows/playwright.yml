@@ -28,6 +28,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
+          force_orphan: true
+      - name: Print Allure Report URL
+        run: |
+          echo "Allure report published: https://sarithapolisetty.github.io/Playwright_Learning_Project/"
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
         with:
